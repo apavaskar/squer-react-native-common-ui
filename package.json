@@ -1,6 +1,6 @@
 {
   "name": "@squer-react-native-common/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "android": "react-native run-android",
@@ -32,6 +32,12 @@
     "preset": "react-native"
   },
   "main": "src/index.js",
+  "files": [
+    "src/index.js",
+    "src/components",
+    "LICENSE",
+    "README.md"
+  ],
   "license": "MIT",
   "publishConfig": {
     "access": "public",
