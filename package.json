@@ -1,6 +1,6 @@
 {
   "name": "@squer-react-native-common/ui",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "android": "react-native run-android",
@@ -41,7 +41,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/apavaskar/squer-react-native-common-ui.git"
   },
-  "description": "Current Version: 0.0.1",
+  "description": "React native extended UI Components using antd",
   "bugs": {
     "url": "https://github.com/apavaskar/squer-react-native-common-ui/issues"
   },
