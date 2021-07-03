@@ -1,11 +1,12 @@
 # @squer-react-native-common/ui
 
-Current Version: 1.0.4
+Current Version: 1.0.5
 
 ### Installation
 `$ npm install @squer-react-native-common/ui --save`
 
 ## Peer Dependencies
+- "@squer-react-native-common/redux": "1.0.4",
 - "prop-types": "15.7.2"
 - "react-redux": "7.2.4"
 - "redux": "4.1.0"
