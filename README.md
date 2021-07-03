@@ -1,6 +1,6 @@
 # @squer-react-native-common/ui
 
-Current Version: 0.0.1
+Current Version: 0.0.2
 
 ### Installation
 `$ npm install @squer-react-native-common/ui --save`
@@ -9,10 +9,7 @@ Current Version: 0.0.1
 - "prop-types": "15.7.2"
 
 ## Dependencies
-- "antd": ""
-
-## Dependent modules
-- e-detailing
+- "antd": "4.2.0"
 
 ### Usage example
 ```
