@@ -1,6 +1,6 @@
 {
   "name": "@squer-react-native-common/ui",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "private": false,
   "scripts": {
     "android": "react-native run-android",
@@ -9,7 +9,9 @@
     "test": "jest",
     "lint": "eslint ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "reselect": "4.0.0"
+  },
   "devDependencies": {
     "@ant-design/react-native": "4.2.0",
     "@babel/core": "7.12.9",
@@ -26,8 +28,7 @@
     "react-redux": "7.2.4",
     "redux": "4.1.0",
     "redux-thunk": "2.3.0",
-    "react-test-renderer": "17.0.1",
-    "reselect": "4.0.0"
+    "react-test-renderer": "17.0.1"
   },
   "peerDependencies": {
     "@squer-react-native-common/redux": "git+ssh://git@github.com/apavaskar/squer-react-native-common-redux.git#1.0.4",
