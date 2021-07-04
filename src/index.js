@@ -1,3 +1,1 @@
-import LoadingSpinner from './components/LoadingSpinner';
-
-export {LoadingSpinner};
+export {LoadingSpinner} from './components/LoadingSpinner';

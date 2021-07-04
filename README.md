@@ -1,6 +1,6 @@
 # @squer-react-native-common/ui
 
-Current Version: 1.0.6
+Current Version: 0.0.3
 
 ### Installation
 `$ npm install @squer-react-native-common/ui --save`
