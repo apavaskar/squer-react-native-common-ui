@@ -29,3 +29,14 @@ Current Version: 0.0.3
 |   | Components | props |
 |---|---|---|
 | [x] | Loading Spinner |   |
+
+
+## Add and verify new UI components
+1. Start project with iOS simulator:
+```shell
+npm install
+cd ios && pod update && pod install && cd ..
+npx react-native run-ios
+```
+2. Add new component to `src/components` _(follow `LoadingSpinner` as template to create new component)_
+3. To verify, place new component on `example/ExampleComponent.js` and check simulator if it's showing!
