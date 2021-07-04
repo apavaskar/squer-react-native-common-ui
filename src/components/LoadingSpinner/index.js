@@ -1,8 +1,21 @@
 import React from 'react';
 import {ActivityIndicator} from 'react-native';
+import {connect} from 'react-redux';
+import PropTypes from 'prop-types';
+import {selectSpinner} from '@squer-react-native-common/redux';
 
-const LoadingSpinner = props => (
-  <ActivityIndicator size="large" color="#98CC83" />
-);
+const LoadingSpinner = ({spinner}) =>
+  spinner?.showSpinner ? (
+    <ActivityIndicator size="large" color="#00BFFF" />
+  ) : null;
 
-export default LoadingSpinner;
+LoadingSpinner.propTypes = {
+  spinner: PropTypes.object.isRequired,
+};
+
+const mapState = state => {
+  const spinner = selectSpinner(state);
+  return {spinner};
+};
+
+export default connect(mapState)(LoadingSpinner);
